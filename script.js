@@ -19,7 +19,7 @@ function play(user) {
     }
     if (user === 'paper') {
         result = "win";
-        win++;
+        wins++;
     }
     if (user === 'scissors') {
         result = "lose";
