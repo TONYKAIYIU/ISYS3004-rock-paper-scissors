@@ -1,6 +1,6 @@
 /* Lets keep score! */
-let win = 0;
-let loses = 0;
+let wins = 0;
+let losses = 0;
 let draws = 0;
 
 function say(theMessage){
@@ -23,11 +23,11 @@ function play(user) {
     }
     if (user === 'scissors') {
         result = "lose";
-        loses++;
+        losses++;
     }
     let myMessage = "Computer chose rock, you " + result + "!" + 
     "\n\n" + wins + "wins" +
-    "\n"   + loses + "losses" +
+    "\n"   + losses + "losses" +
     "\n"   + draws + "draws";
     alert(myMessage)
     say(myMessage)
