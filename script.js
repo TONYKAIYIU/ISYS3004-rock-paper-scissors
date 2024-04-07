@@ -12,16 +12,17 @@ function say(theMessage){
 The Computer ALWAYS picks ROCK.  
 Does the user's choose win,lose, or tie vs ROCK? */
 function play(user) {
+    let result = ""
     if (user === 'rock') {
-        result = "tie";
+        result == "tie";
         draws++;
     }
     if (user === 'paper') {
-        result = "win";
+        result == "win";
         wins++;
     }
     if (user === 'scissors') {
-        result = "lose";
+        result == "lose";
         losses++;
     }
     let myMessage = "Computer chose rock, you " + result + "!" + 
