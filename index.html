@@ -10,15 +10,15 @@
 <body>
   <h1>Rock, Paper or Scissors?</h1>
   <p> 
-    <span class="circle" onclick="play()">R</span> 
-    <span class="circle" onclick="play()">P</span> 
-    <span class="circle" onclick="play()">S</span> 
+    <span class="circle" onclick="play('Rock')">R</span> 
+    <span class="circle" onclick="play('Paper')">P</span> 
+    <span class="circle" onclick="play('Scissors')">S</span> 
   </p>
   <a class="instruction" href="https://www.wikihow.com/Play-Rock,-Paper,-Scissors">RULES</a>
 
 <script>
-  function play() {
-    alert("Either Rock or paper or Scissors was clicked");
+  function play(msg) {
+    alert(msg + "was clicked");
   }
 </script>
 </body>
