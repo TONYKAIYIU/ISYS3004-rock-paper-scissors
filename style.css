@@ -24,3 +24,7 @@ https://www.w3schools.com/howto/howto_css_circles.asp
     padding: 5px 20px;
     font-size: 65%;
   }
+
+  .circle:hover {
+    background-color: gray;
+  }
